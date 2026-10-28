@@ -1,2 +1,4 @@
-# windfarm
-Data Lake with AWS for eolic turbines : streaming Kinesis → Firehose → S3, ETL with Glue (JSON → Parquet) and SQL Analytics with Athena.
+# Wind Farm – Data Lake na AWS
+
+Pipeline de ingestão e processamento de telemetria de turbinas eólicas em streaming,
+construído sobre serviços gerenciados da AWS.
