@@ -1,0 +1,12 @@
+## Producers
+
+Each turbine emits 3 telemetry signals every 10 seconds:
+
+| Sinal | Simulated range | Relevance |
+|---|---|---|
+| `powerfactor` | 0.7 – 1.0 | Energy conversion efficiency |
+| `batterytemperature` | 20 – 45 °C | Backup system health |
+| `hydraulicpressure` | 70 – 80 bar | Pitch/brake system |
+
+The producers simulate normal conditions and anomaly events (spikes, drops),
+allowing the pipeline's resilience to out-of-range data to be tested.
